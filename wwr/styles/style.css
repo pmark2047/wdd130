@@ -1,0 +1,86 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #d7d0cc;
+}
+
+header {
+    background-color: rgb(50, 59, 46);
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav a:hover, .join:hover {
+    background-color: rgb(135, 162, 123);
+}
+
+.home-title {
+    color: black;
+}
+
+.book, .join {
+    color: #525252;
+    text-decoration: none;
+    background-color: #c9bba1;
+}
+
+.book:hover, .join:hover {
+    color: rgb(185, 185, 185);
+    background-color: #6a5e4b;
+}
+
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: rgb(218, 200, 171);
+}
+
+.msg {
+    background-color: rgb(63, 74, 59);
+    color: whitesmoke;
+}
+
+footer {
+    background-color: rgb(63, 74, 59);
+    color: whitesmoke;
+}
+
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer a:hover {
+    background-color: rgb(83, 97, 78)
+}
+
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+}

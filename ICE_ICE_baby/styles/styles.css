@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(90, 159, 206);
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+main img {
+    width: 100vw;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: grey;
+    text-align: center;
+}
+
+#circles {
+    border: 12px solid rgb(83, 83, 83);
+    border-radius: 50%;
+    width: 18%;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
