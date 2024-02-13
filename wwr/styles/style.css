@@ -43,6 +43,7 @@ nav a:hover, .join:hover {
 .book, .join {
     color: #525252;
     text-decoration: none;
+    text-align: center;
     background-color: #c9bba1;
     font-family: 'Balsamiq Sans', sans-serif;
     font-size: 18px;
