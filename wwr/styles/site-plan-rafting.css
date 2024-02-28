@@ -3,29 +3,30 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@0;1&display=swap');
 
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #E69111   ;
-  --secondary-color: #3993DD ;
-  --accent1-color: #EED6CE;
-  --accent2-color: #102A91;
+  --primary-color: rgb(50, 59, 46);
+  --secondary-color: #c9bba1;
+  --accent1-color: rgb(135, 162, 123);
+  --accent2-color: #6a5e4b;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Merriweather";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: 'Balsamiq Sans', sans-serif;
+  --paragraph-font: Lato, Arial, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #102A91;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #10456c; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #102A91  ;
-  --nav-link-color: #102A91;
-  --nav-background-color: #E69111;
-  --nav-hover-link-color: #EED6CE;
-  --nav-hover-background-color: #3993DD;
+  --headline-color-on-white: rgb(50, 59, 46);  /* headlines on a white background */ 
+  --headline-color-on-color: whitesmoke; /* headlines on a colored background */ 
+  --paragraph-color-on-white: rgb(50, 59, 46); /* paragraph text on a white background */ 
+  --paragraph-color-on-color: whitesmoke; /* paragraph text on a colored background */ 
+  --paragraph-background-color: rgb(50, 59, 46)  ;
+  --nav-link-color: whitesmoke;
+  --nav-background-color: rgb(50, 59, 46);
+  --nav-hover-link-color: whitesmoke;
+  --nav-hover-background-color: rgb(135, 162, 123);
 }
 
 
