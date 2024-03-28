@@ -36,21 +36,67 @@
                 </div>
             </nav>
         </header>
-        <main class="home-grid">
-            <section class="video">
-                <h2>Within the Crate</h2>
+        <main class="listen-grid">
+            <h2>PORTFOLIO</h2>
+            <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+            <button class="btn" onclick="filterSelection('audio')"> Audio</button>
+            <button class="btn" onclick="filterSelection('video')"> Videos</button>
+            </div>
+
+            <!-- Portfolio Gallery Grid -->
+            <div class="row">
+            <div class="column video">
+                <div class="content">
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/cNVI4ExuhUQ"></iframe>
+                <h4>Within the Crate</h4>
                 <p>Local film director Luke Melby recruited me to help write the music for a particular film he was writing for a festival. I wrote this piece with the inspiration taken from an old score written by Anton Webern called "String Trio, Op. 20"</p>
-                <iframe width="420" height="315"
-                src="https://www.youtube.com/embed/cNVI4ExuhUQ">
-                </iframe>
-            </section>
-            <section class="mp3">
-                <h2>February 2nd</h2>
-                <p>This piece was something I wrote a long time ago to work on my orchestral composition. Because I never did anything with it I simply named it after the day I wrote it</p>
-                <figure>
+                </div>
+            </div>
+            <div class="column video">
+                <div class="content">
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/b1FPPeP9C8w"></iframe>
+                <h4>I Believe in Christ Piano Duet</h4>
+                <p>I arranged this medley of I believe in Christ and Savior Redeemer of my Soul with my brother Hunter Markus back when I was higschool.</p>
+                </div>
+            </div>
+            <div class="column audio">
+                <div class="content">
+                    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/947502976&color=%23212f45&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-101121512" title="Peyton Markus" target="_blank" style="color: #cccccc; text-decoration: none;">Peyton Markus</a> · <a href="https://soundcloud.com/user-101121512/orchestra-practice" title="Orchestra Practice" target="_blank" style="color: #cccccc; text-decoration: none;">Orchestra Practice</a></div>
+                <h4>Orchestra Practice</h4>
+                <p>A short instrumental I wrote to learn more about ochestral compostiion</p>
+                </div>
+            </div>
+            <div class="column audio">
+                <div class="content">
+                    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/964537936&color=%23212f45&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-101121512" title="Peyton Markus" target="_blank" style="color: #cccccc; text-decoration: none;">Peyton Markus</a> · <a href="https://soundcloud.com/user-101121512/all-the-reasons" title="All The Reasons" target="_blank" style="color: #cccccc; text-decoration: none;">All The Reasons</a></div>
+                <h4>All the Reasons</h4>
+                <p>This is a song I wrote with my cousins overnight</p>
+                </div>
+            </div>
+            <div class="column video">
+                <div class="content">
+                    <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fpeyton.markus.3%2Fvideos%2F928439745625939%2F&show_text=false&width=560&t=0" width="420" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                <h4>Gethsemane</h4>
+                <p>This is my Easter piano arrangement of the song Gethsemane by Melanie Hoffman</p>
+                </div>
+            </div>
+            <div class="column audio">
+                <div class="content">
+                    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1708916016&color=%23212f45&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-101121512" title="Peyton Markus" target="_blank" style="color: #cccccc; text-decoration: none;">Peyton Markus</a> · <a href="https://soundcloud.com/user-101121512/silent-night-bonus-track" title="Silent Night (Bonus Track)" target="_blank" style="color: #cccccc; text-decoration: none;">Silent Night (Bonus Track)</a></div>
+                <h4>Silent Night</h4>
+                <p>Christmas guitar instrumental of Silent Night</p>
+                </div>
+            </div>   
+            <div class="column audio">
+                <div class="content">
                     <audio controls src="images/February_2.mp3"></audio>
-                </figure>
-            </section>
+                <h4>February 2nd</h4>
+                <p>This piece was something I wrote a long time ago to work on my orchestral composition. Because I never did anything with it I simply named it after the day I wrote it</p>
+                </div>
+            </div>   
+            <!-- END GRID -->
+            </div>      
         </main>
         <footer>
             <p> Copyright 2024 - Peyton Markus<a href="https://www.google.com/search?q=solitare&oq=solitare&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIPCAEQABgKGIMBGLEDGIAEMg8IAhAAGAoYgwEYsQMYgAQyDwgDEC4YChiDARixAxiABDIPCAQQABgKGIMBGLEDGIAEMgkIBRAAGAoYgAQyDwgGEAAYChiDARixAxiABDIPCAcQABgKGIMBGLEDGIAEMg8ICBAAGAoYgwEYsQMYgAQyEggJEC4YChiDARjUAhixAxiABNIBCDE2MzBqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8" target="_blank">.</a></p>
@@ -65,4 +111,53 @@
         </footer>
     </div>
 </body>
+<script>
+    filterSelection("all") // Execute the function and show all columns
+function filterSelection(c) {
+var x, i;
+x = document.getElementsByClassName("column");
+if (c == "all") c = "";
+// Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+}
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+var i, arr1, arr2;
+arr1 = element.className.split(" ");
+arr2 = name.split(" ");
+for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+    element.className += " " + arr2[i];
+    }
+}
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+var i, arr1, arr2;
+arr1 = element.className.split(" ");
+arr2 = name.split(" ");
+for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+    arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+}
+element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+});
+}
+</script>
 </html>
