@@ -94,7 +94,7 @@ nav a {
 .icons :hover {
     transition: 0.5s;
     opacity: 1;
-    max-width: 70px;
+    max-width: 45px;
 }
 
 #hero {
@@ -147,6 +147,7 @@ body {
 .home-grid {
     display: grid;
     grid-template-columns: 10% 1fr 1fr 1fr 10%;
+    margin-bottom: 60px;
 }
 
 .home-grid h2{
