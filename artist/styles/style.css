@@ -380,3 +380,7 @@ footer p{
     background-color: #932314;
      color: white;
   }
+
+  iframe{
+    max-width: 100%;
+  }
